@@ -1,0 +1,58 @@
+label{
+    font-size: 150px;
+    display: block;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div{
+    text-align: center;
+}
+
+#minusBtn{
+    width: 150px;
+    height:30px;
+    color: black;
+    background-color: rgb(192, 192, 234);
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#minusBtn:hover{
+    color: white;
+    background-color: rgb(104, 104, 237);
+}
+
+#reset{
+    color: black;
+    background-color: rgb(192, 192, 234);
+    border-radius: 15px;
+    border: none;
+    width: 150px;
+    height: 30px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#reset:hover{
+    background-color: rgb(104, 104, 237);
+    color: white;
+}
+
+#plusBtn{
+    color: black;
+    background-color: rgb(192, 192, 234);
+    cursor: pointer;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+#plusBtn:hover{
+    background-color: rgb(104, 104, 237);
+    color: white;
+}
