@@ -25,8 +25,10 @@
         <button onclick="display('/')" class="btn">/</button>
         <button onclick="display('0')">0</button>
         <button onclick="display('.')">.</button>
-        <button onclick="total('=')">=</button>
+        <button onclick="total('=')" class="btn">=</button>
         <button id="clear" class="btn">c</button>
+        <button onclick="appendDisplay.value = appendDisplay.value.toString().slice(0,-1)" class="btn">R</button>
+
 
 
         <div id="keys">

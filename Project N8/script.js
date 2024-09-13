@@ -17,6 +17,7 @@ function total(){
 }
 
 
+
 clear.onclick = function(){
     appendDisplay.value = "";
 }
